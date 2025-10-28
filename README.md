@@ -6,7 +6,7 @@ I made this project while learning web development to practice user interaction,
 ---
 
 ## 🌐 Live Demo  
-👉 [Play the Game Here] https://akash-jarali.github.io/Rock-Paper-Scissors/
+👉 [Play the Game Here] (https://akash-jarali.github.io/Rock-Paper-Scissors/)
 
 ---
 
