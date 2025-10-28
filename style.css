@@ -121,12 +121,12 @@ img {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .choices {
         gap: 40px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .choice {
@@ -140,12 +140,12 @@ img {
     }
 
     .scoreBoard {
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 30px;
     }
 
     #msg {
-        font-size: 22px;
+        font-size: 20px;
         padding: 12px 24px;
     }
 }
@@ -153,27 +153,47 @@ img {
 @media (max-width: 480px) {
     .choices {
         flex-direction: column;
-        gap: 24px;
-        margin-top: 30px;
+        gap: 12px;
+        margin-top: 24px;
+    }
+
+    body {
+        align-items: flex-start; /* Prevent vertical centering on small screens */
+        padding: 8px;
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 20px;
+        padding: 12px;
     }
 
     .choice {
-        height: 130px;
-        width: 130px;
-    }
-
-    img {
         height: 120px;
         width: 120px;
     }
 
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .scoreBoard {
+        margin-top: 24px;
+        gap: 40px;
+    }
+
+    .msgContainer {
+        margin-top: 24px;
+    }
+
     #msg {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
+        padding: 10px 16px;
+    }
+
+    .reset-container {
+        margin-top: 24px;
     }
 
     #reset-btn {
